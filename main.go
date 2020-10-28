@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gjlee0802/web-tuto-with-gin/handler"
+	"github.com/gjlee0802/RaspberryWebCCTV/handler"
 	"github.com/gin-gonic/gin"
 )
 
