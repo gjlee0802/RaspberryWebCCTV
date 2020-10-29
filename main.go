@@ -14,5 +14,10 @@ func main() {
 	r.GET("/index.html", handler.ShowIndexPage)
 	r.GET("/stream.html", handler.ShowStreamPage)
 	r.GET("/video_log.html", handler.ShowVideoLogPage)
+
+	r.StaticFile("/img/king.png", "img/king.png")
+	r.StaticFile("/img/sss.png", "img/sss.png")
+	r.StaticFile("/img/capture.jpg", "log/capture.jpg")
+	r.StaticFile("/img/image.jpg", "log/image.jpg")
 	r.Run(":8080")
 }
